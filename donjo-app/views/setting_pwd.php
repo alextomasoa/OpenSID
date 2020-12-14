@@ -77,7 +77,7 @@
 								<button type="submit" id="btnSubmit" class="btn btn-social btn-flat btn-info btn-sm"><i class='fa fa-check'></i>Simpan</button>
 							</form>
 							<hr/>
-							<div class="login-footer-bottom"><a href="https://github.com/OpenSID/OpenSID" target="_blank">OpenSID</a> <?= substr(AmbilVersi(), 0, 11)?></div>
+							<div class="login-footer-bottom"><a href="https://github.com/OpenSID/OpenSID" target="_blank">OpenSID</a> <?= substr(AmbilVersi(), 0, 20)?> | <a href="https://www.facebook.com/KBIPusat" target="_blank"><strong>STID KBI</strong></a> </div>
 						</div>
 					</div>
 				</div>

@@ -142,8 +142,8 @@
 		<div class="wrapper">
 			<header class="main-header">
 				<a href="<?=site_url()?>first"  target="_blank" class="logo">
-					<span class="logo-mini"><b>SID</b></span>
-					<span class="logo-lg"><b>OpenSID</b></span>
+					<span class="logo-mini"><b>STID</b></span>
+					<span class="logo-lg"><b><?=ucwords($this->setting->sebutan_desa) .' '. ($desa['nama_desa'])?></b></span>
 				</a>
 				<nav class="navbar navbar-static-top">
 					<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
