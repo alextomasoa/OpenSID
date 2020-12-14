@@ -61,7 +61,7 @@
 </style>
 <div class="content-wrapper">
 	<section class='content-header'>
-		<h1>Tentang STID KBI</h1>
+		<h1>Tentang STID <?=ucwords($this->setting->sebutan_desa) .' '. ($desa['nama_desa'])?></h1>
 		<ol class='breadcrumb'>
 			<li><a href='<?=site_url()?>'><i class='fa fa-home'></i> Home</a></li>
 			<li class='active'>Info STID</li>

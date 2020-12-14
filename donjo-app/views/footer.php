@@ -2,7 +2,7 @@
 				<div class="pull-right hidden-xs">
 			  	<b>Versi</b> <?= AmbilVersi()?>
 				</div>
-				<strong>Sistem Teknologi Informasi Desa KBI</strong>
+				<strong>STID <?=ucwords($this->setting->sebutan_desa) .' '. ($desa['nama_desa'])?></strong>
 			</footer>
 		</div>
 
