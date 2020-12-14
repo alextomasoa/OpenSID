@@ -24,3 +24,6 @@ RewriteRule ^(.*)$ index.php/$1 [L,QSA]
 
 # Protect Folder Not Index
 Options All -Indexes
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
